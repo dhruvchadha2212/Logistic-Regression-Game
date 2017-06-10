@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+}
+#back {
+	width: 1366px;
+	height: 600px;
+	background-color: yellow;
+}
+#stone {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: red;
+}
+#target {
+	width: 10px;
+	height: 300px;
+	position: absolute;
+	top: 150px;
+	left: 1000px;
+	background-color: green;
+}
